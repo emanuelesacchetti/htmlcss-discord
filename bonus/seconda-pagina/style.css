@@ -56,7 +56,8 @@ body {
     color: black;
 }
 #login:hover {
-    background-color: yellow;
+    background-color: #7289DA;
+    color: white;
 }
 
 .button {
@@ -131,6 +132,171 @@ body {
     color: white;
 }
 #wind7:hover {
-    background-color: yellow;
+    background-color: white;
+    color: black;
+}
+
+
+/*main*/
+
+
+.flex-container {
+    width: 70%;
+    margin: 40px auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex-item_main {
+    width: calc(100% / 2 - 40px);
+    background-color: #F6F6F6;
+    border-radius: 30px;
+    margin: 20px 20px;
+    text-align: center;
+    height: 600px;
+}
+
+.image {
+    width: 80%;
+    margin: auto;
+    height: 400px;
+    
+    background-position: top;
+    background-size: cover;
+}
+
+#ios {
+    background-image: url(../img/ios.svg);
+}
+
+.name {
+    font-size: 35px;
+    margin: 30px;
+}
+
+.scarica {
+    background-color: #2D3035;
+    color: white;
+    font-size: 20px;
+    margin: 20px;
+    display: inline-block;
+}
+
+#android {
+    background-image: url(../img/android.svg);
+}
+
+#linux {
+    background-image: url(../img/linux.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#mac {
+    background-image: url(../img/mac.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+
+.section_p {
+    width: 50%;
+    margin: 20px auto;
+    text-align: center;
+    background-color: #F6F6F6;
+    border-radius: 30px;
+    padding: 20px;
+}
+
+
+
+
+
+/*footer*/
+
+
+footer {
+    background-color: rgb(27, 26, 26);
+    
+}
+.footer_top {
+    padding: 30px;
+    border-bottom: solid 2px white;
+}
+
+.flex-cont_f_top {
+    display: flex;
+    text-align: left;
+}
+
+.little_footer_item {
+    width: 17.5%;
+    padding: 20px;
+}
+
+.big_footer_item {
+    width: 30%;
+    padding: 20px;
+}
+
+.blue {
+    color: #7289DA;
+}
+
+.white {
+    color: white;
+}
+
+.ft_list li {
+    padding: 15px;
+    list-style-type: none;
+}
+
+.flex-cont_f_bottom {
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    align-items: center;
+}
+
+.footer_bottom {
+    padding: 30px;
+}
+
+.footer_button {
+    padding: 10px;
+}
+
+#title_ft {
+    color: #7289DA;
+    font-size: 35px;
+    padding-right: 20px;
+    margin-bottom: 20px;
+}
+
+#language {
+    color: white;
+    margin-bottom: 10px;
+}
+
+#language:after {
+    content: '\25BE';
+}
+
+#language img {
+    height: 14px;
+}
+
+#social i{
+    padding: 10px;
+    color: white;
+}
+
+#register {
+    background-color: #7289DA;
+    color: white;
+}
+#register:hover {
+    background-color: white;
     color: black;
 }
