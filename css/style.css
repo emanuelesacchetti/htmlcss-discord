@@ -30,14 +30,14 @@ body {
 .debug .hb_box {
     background-color: purple;
 }*/
-
+/*
 .debug .border {
     border: 1px dotted black;
 }
 
 .debug .flex-cont_main {
     height: 500px;
-}
+}*/
 /*
 .debug .photo-box_item {
     background-color: blue;
@@ -52,7 +52,7 @@ body {
 .debug .section_box {
     background-color: green;
 }
-*/
+
 .debug .flex-cont_f_top {
     height: 500px;
     background-color: brown;
@@ -74,7 +74,7 @@ body {
 .debug .footer_button {
     background-color: rgb(214, 135, 148);
 }
-
+*/
 /* HEADER css*/
 
 
@@ -269,20 +269,35 @@ footer {
 
 .flex-cont_f_top {
     display: flex;
+    text-align: left;
 }
 
 .little_footer_item {
     width: 17.5%;
+    padding: 20px;
 }
 
 .big_footer_item {
     width: 30%;
+    padding: 20px;
+}
+
+.blue {
+    color: #7289DA;
+}
+
+.white {
+    color: white;
+}
+
+.ft_list li {
+    padding: 15px;
+    list-style-type: none;
 }
 
 .flex-cont_f_bottom {
     display: flex;
     justify-content: space-between;
-    background-color: greenyellow;
     height: 100px;
     align-items: center;
 }
@@ -293,4 +308,34 @@ footer {
 
 .footer_button {
     padding: 10px;
+}
+
+#title_ft {
+    color: #7289DA;
+    font-size: 35px;
+    padding-right: 20px;
+    margin-bottom: 20px;
+}
+
+#language {
+    color: white;
+    margin-bottom: 10px;
+}
+
+#language:after {
+    content: '\25BE';
+}
+
+#language img {
+    height: 14px;
+}
+
+#social i{
+    padding: 10px;
+    color: white;
+}
+
+#register {
+    background-color: #7289DA;
+    color: white;
 }
