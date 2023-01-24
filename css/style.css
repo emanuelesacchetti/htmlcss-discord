@@ -1,0 +1,256 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Tinos', serif;
+}
+
+
+/*debug*/
+
+
+.debug .header-top {
+    height: 80px;
+    /*background-color: aqua;*/
+}
+
+.debug .header-bottom {
+    /*height: 400px;*/
+    background-color: darkblue;
+}
+
+/*
+.debug .container {
+    height: 60px;
+}*/
+/*
+.debug .flex-cont_hd {
+    background-color: yellowgreen;
+}*/
+/*
+.debug .hb_box {
+    background-color: purple;
+}*/
+
+.debug .border {
+    border: 1px dotted black;
+}
+
+.debug .flex-cont_main {
+    background-color: green;
+    height: 500px;
+}
+
+.debug .big_blue_item {
+    background-color: blue;
+    
+}
+
+.debug .little_pink_item {
+    background-color: pink;
+}
+
+
+.debug .section_box {
+    background-color: green;
+}
+
+.debug .flex-cont_f_top {
+    height: 500px;
+    background-color: brown;
+}
+
+.debug .little_footer_item {
+    background-color: aquamarine;
+    border: 1px dotted white;
+}
+
+.debug .big_footer_item {
+    background-color: crimson;
+}
+
+.debug .flex-cont_f_bottom {
+    background-color: greenyellow;
+}
+
+.debug .footer_button {
+    background-color: rgb(214, 135, 148);
+}
+
+/* HEADER css*/
+
+
+.header-top, .header-bottom {
+    padding: 30px;
+    background-color: #255EE9;
+}
+
+.header-bottom {
+    background-image: url(../img/jumbo.png);
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0 50%;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.flex-cont_hd {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+
+}
+
+.logo {
+    width: 20%;
+    text-align: left;
+    padding: 10px;
+}
+
+.logo img {
+    height: 100%;
+}
+
+.login {
+    width: 20%;
+    text-align: right;
+    padding: 10px;
+}
+
+#login {
+    background-color: white;
+    color: black;
+}
+
+.button {
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 13px;
+}
+
+
+.menu {
+    width: 60%;
+    text-align: center;
+    list-style-type: none;
+    line-height: 100%;
+    padding: 11px;
+}
+
+.menu li {
+    display: inline;
+    padding: 0px 10px;
+    color: white;
+}
+
+.hb_box {
+    width: 50%;
+    margin: auto;
+    color: white;
+    text-align: center;
+}
+
+.hb_box h2 {
+    font-size: 40px;
+    padding: 30px;
+}
+
+.hb_box p {
+    font-size: 20px;
+    padding-bottom: 50px;
+}
+
+#mac {
+    background-color: white;
+    color: black;
+    margin: 20px;
+}
+
+#mac::before {
+    content: '\2193';
+    font-size: 20px;
+}
+
+#browser {
+    background-color: black;
+    color: white;
+    margin: 20px;
+    
+}
+
+/* MAIN css*/
+
+
+section {
+    padding: 30px;
+}
+
+.grey_section {
+    background-color: grey;
+}
+
+
+.flex-cont_main {
+    display: flex;
+    
+}
+
+.big_blue_item {
+    width: 60%;
+}
+
+.little_pink_item {
+    width: 40%;
+}
+
+.section_box {
+    height: 700px;
+}
+
+
+/*FOOTER css*/
+
+footer {
+    background-color: rgb(27, 26, 26);
+    
+}
+.footer_top {
+    padding: 30px;
+    border-bottom: solid 2px white;
+}
+
+.flex-cont_f_top {
+    display: flex;
+}
+
+.little_footer_item {
+    width: 17.5%;
+}
+
+.big_footer_item {
+    width: 30%;
+}
+
+.flex-cont_f_bottom {
+    display: flex;
+    justify-content: space-between;
+    background-color: greenyellow;
+    height: 100px;
+    align-items: center;
+}
+
+.footer_bottom {
+    padding: 30px;
+}
+
+.footer_button {
+    padding: 10px;
+}
