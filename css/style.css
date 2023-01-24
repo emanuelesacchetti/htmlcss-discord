@@ -47,12 +47,12 @@ body {
 .debug .text-box_item {
     background-color: pink;
 }
-*/
+
 
 .debug .section_box {
     background-color: green;
 }
-
+*/
 .debug .flex-cont_f_top {
     height: 500px;
     background-color: brown;
@@ -132,6 +132,7 @@ body {
     border-radius: 20px;
     padding: 10px;
     font-size: 13px;
+    margin: 20px;
 }
 
 
@@ -166,13 +167,12 @@ body {
     padding-bottom: 50px;
 }
 
-#mac {
+#mac_hd {
     background-color: white;
     color: black;
-    margin: 20px;
 }
 
-#mac::before {
+.mac::before {
     content: '\2193';
     font-size: 20px;
 }
@@ -180,8 +180,6 @@ body {
 #browser {
     background-color: black;
     color: white;
-    margin: 20px;
-    
 }
 
 /* MAIN css*/
@@ -203,6 +201,7 @@ section {
 
 .photo-box_item {
     width: 60%;
+    text-align: center;
 }
 
 
@@ -221,8 +220,40 @@ section {
     text-align: left;
 }
 .section_box {
-    height: 700px;
+    text-align: center;
 }
+
+#title-section {
+    font-size: 38px;
+    padding: 40px;
+}
+
+#text-section {
+    padding: 38px 257px;
+}
+
+#question-section {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+#question-box {
+    width: 400px;
+    margin: 0 auto 20px;
+    background-image: url(../img/stars.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#mac_main {
+    background-color: #7289DA;
+    color: white;
+    margin-bottom: 50px;
+    display: inline-block;
+}
+
+
 
 
 /*FOOTER css*/
