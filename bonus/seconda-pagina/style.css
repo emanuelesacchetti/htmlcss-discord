@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Noto Sans', sans-serif;
+}
+
+
+.header-top, .header-bottom {
+    padding: 30px;
+    background-color: #23272A;
+}
+
+.header-bottom {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0 50%;
+}
+.container {
+    width: 70%;
+    margin: auto;
+}
+
+
+.flex-cont_hd {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+
+}
+
+.header-top {
+    height: 80px;
+}
+.logo {
+    width: 20%;
+    text-align: left;
+    padding: 10px;
+}
+
+.logo img {
+    height: 100%;
+}
+
+.login {
+    width: 20%;
+    text-align: right;
+    padding: 10px;
+}
+
+#login {
+    background-color: white;
+    color: black;
+}
+#login:hover {
+    background-color: yellow;
+}
+
+.button {
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 13px;
+    margin: 20px;
+}
+
+
+
+
+.menu {
+    width: 60%;
+    text-align: center;
+    list-style-type: none;
+    line-height: 100%;
+    padding: 11px;
+}
+
+.menu li {
+    display: inline;
+    padding: 0px 10px;
+    color: white;
+}
+
+.hb_box {
+    width: 70%;
+    margin: 30px auto;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.sx_hd_box {
+    width: 50%;
+}
+
+.dx_hd_box {
+    width: 50%;
+}
+
+.hb_box h2 {
+    font-size: 40px;
+    
+}
+
+.hb_box p {
+    font-size: 20px;
+    padding: 20px;
+}
+
+#wind_hd {
+    background-color: #6D78F4;
+    color: white;
+    font-size: 20px;
+}
+#wind_hd:hover {
+    background-color: white;
+    color: black;
+}
+
+.mac::before {
+    content: '\2193';
+    font-size: 20px;
+}
+
+#wind7 {
+    background-color: black;
+    color: white;
+}
+#wind7:hover {
+    background-color: yellow;
+    color: black;
+}
