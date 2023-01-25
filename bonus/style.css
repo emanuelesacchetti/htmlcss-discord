@@ -360,3 +360,13 @@ footer {
     background-color: yellow;
     color: black;
 }
+
+.wave {
+    height: 60px;
+    background-image: url(img/wave.svg);
+    opacity: 50%;
+}
+
+#reverse-img {
+    transform: rotate(180deg);
+}
